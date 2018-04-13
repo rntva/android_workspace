@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exam1Activity">
+
+    <EditText
+        android:id="@+id/value_1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/basic"
+        />
+
+    <EditText
+        android:id="@+id/value_2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/calcul"
+        android:hint="@string/basic"
+        />
+
+    <TextView
+        android:id="@+id/calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/value_1"
+        android:textSize="16sp"
+        android:text="@string/calcul"
+        />
+
+    <TextView
+        android:id="@+id/result_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="@string/plus"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/result_Multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_plus"
+        android:hint="@string/mul"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="clkResult"
+        android:text="@string/result"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/result_plus"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:textSize="25sp"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/result_Multiply"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/result_plus"-->
+        <!--android:textSize="25sp"-->
+        <!--/>-->
+
+</RelativeLayout>
