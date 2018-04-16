@@ -57,6 +57,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.ai_java.hello_world.feature.R;
+
 public class Exam1Activity extends AppCompatActivity {
 
     @Override

@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ai_java.hello_world.feature.R;
+
 public class Exam3Activity extends AppCompatActivity {
 
     EditText insertCoin;

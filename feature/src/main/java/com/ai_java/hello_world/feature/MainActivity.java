@@ -10,6 +10,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.ai_java.hello_world.feature.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
